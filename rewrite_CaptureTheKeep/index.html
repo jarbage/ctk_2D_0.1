@@ -1,0 +1,66 @@
+
+
+<!--CSS-->
+<link rel="stylesheet" 
+      type="text/css" 
+      href="./base.css">
+
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+<!--initilize CaptureTheKeep-->
+<script type="module" 
+        src="./_js/initilize.js">
+    </script>
+
+<body>
+    <div>
+        <header>
+            <h2>Capture the Keep</h2>
+        </header>
+        
+        <capturethekeep id="capturethekeep">
+            <div id="gamewindow" width="100%" height="75vh"background-color="white" perserveApsectRatio="xMidYMax">
+            </div>
+        </capturethekeep>
+        <footer>
+            <div id="footer_container">
+                <div id="ui_container">
+
+                    <div class="tower_button" id="tower_classic">
+
+                    </div>
+                    <div class="tower_button" id="tower_button--2">
+                        
+                    </div>
+
+
+                </div>
+
+
+
+                <div id="meta_container">
+                <h2>Meta</h2>
+                <div id="info_container">
+                    <div class="game_info">
+                        <h3>Input Register</h3>
+                        <p id="input_register">
+
+                        </p>
+                    </div>
+                    <div class="game_info">
+                        <h3>Keep Coordinates: </h3>
+                        <p id="keep_coordinates"></p>
+
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <script type="module" 
+                src="./CaptureTheKeep/_js/tower_ui.js">
+            </script>
+    </div>
+</body>
